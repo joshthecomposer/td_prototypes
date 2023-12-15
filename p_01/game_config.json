@@ -1,0 +1,15 @@
+{
+  "game_title": "TD Prototype 01",
+  "_cs_comment": "Cell size is the size in pixels of one cell in the grid, which is a square grid.",
+  "cell_size": 80.0,
+  "win_width": 1920.0,
+  "win_height": 1080.0,
+  "grid_width": 32,
+  "grid_height":18,
+  "base_enemy_speed": 500.0,
+  "enemy_collision_radius": 25.0,
+  "enemy_scaling_factor": 0.3,
+  "vsync": true,
+  "_aa_comment": "multi_sampling must be 1 or 4 TODO: try 2, 8, etc.",
+  "multi_sampling": 1
+}
