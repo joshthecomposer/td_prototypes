@@ -41,8 +41,8 @@ where
 
 fn u8_to_num_samples(samples: u8) -> NumSamples {
     match samples {
-        1=>NumSamples::One,
-        4=>NumSamples::Four,
-        _=>panic!("Invalid multi_sampling value. Must be 1 or 4")
+        1 => NumSamples::One,
+        4 => NumSamples::Four,
+        _ => panic!("Invalid multi_sampling value. Must be 1 or 4"),
     }
 }

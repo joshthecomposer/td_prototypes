@@ -30,7 +30,7 @@ fn main() {
         .window_mode(full_screen)
         .build()
         .expect("aieeeeee, could not create a game context!!!!!");
-
+    
     let my_game = GameState::new(&mut ctx, game_config);
 
     event::run(ctx, event_loop, my_game);
